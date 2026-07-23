@@ -60,7 +60,7 @@ export function Formulario() {
         <div>
           <label className={style.label}>Café</label>
           <select
-            className={style.input}
+            className={`${style.input} ${cafe === '' ? 'text-gray-400' : 'text-black'}`}
             value={cafe}
             onChange={(e) => setCafe(e.target.value)}
             required
@@ -75,7 +75,7 @@ export function Formulario() {
         <div>
           <label className={style.label}>Acompanhamentos</label>
           <select
-            className={style.input}
+            className={`${style.input} ${acompanhamento === '' ? 'text-gray-400' : 'text-black'}`}
             value={acompanhamento}
             onChange={(e) => setAcompanhamento(e.target.value)}
           >

@@ -7,10 +7,10 @@ criado para praticar e desenvolver conhecimento em **Desenvolvimento Web**.
 ---
 
 ## Instalação
-1- git clone https://github.com/davi41933-svg/ProjetoCafeteria.git  
-2- Entrar nas pastas backend e frontend e rodar: ``npm install``  
-4- Criar o banco e executar schema.sql  
-5- Copiar .env.example para .env em backend e frontend e ajustar variáveis
+1. git clone https://github.com/davi41933-svg/ProjetoPadaria.git  
+2. Entrar nas pastas backend e frontend e rodar: ``npm install``  
+4. Criar o banco e executar schema.sql  
+5. Copiar .env.example para .env em backend e frontend e ajustar variáveis
 
 ---
 
@@ -31,9 +31,10 @@ No frontend: ``npm run dev``
 - zod
 - CRON
 - mysql2
+- nodemon
 
 **Frontend**
-- react-router-dom
+- react-dom
 - axios 
 - tanStack 
 - dotenv 
