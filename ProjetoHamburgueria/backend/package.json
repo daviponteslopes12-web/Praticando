@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "criar-gerente": "node src/scripts/criarGerente.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
