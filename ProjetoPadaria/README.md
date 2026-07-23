@@ -1,29 +1,47 @@
-**🥖Projeto - Padaria**
+# Projeto Padaria 
 
-**🎯Objetivo**
-Projetos para treinar Desenvolvimento Web utilizando Node + React vite;
-A ideia é aprender criando mini projetos, incluir novas técnologias e práticar as que já são conhecidas.
+## Descrição
+Projeto simples e imperfeito que simula fornadas e controle de estoque, 
+criado para praticar e desenvolver conhecimento em **desenvolvimento web**.
 
-**Desenvolvimento**
-Controle de fornadas (ex: Pão francês, sai às 16h) e aviso de estoque.
-- Gerenciamento de pedidos e fornadas;
-- Fila de espera dos pedidos com status;
-- Cancelar
+---
 
+## Instalação
+1- git clone https://github.com/davi41933-svg/ProjetoCafeteria.git
+2- Entrar nas pastas backend e frontend e rodar: 
+``npm install``
+4- Criar o banco e executar schema.sql
+5- Copiar .env.example para .env em backend e frontend e ajustar variáveis
 
-✅banco -> MySQL, mariadb
-✅backend -> express, cors, dotenv, zod, CRON, mysql2
-✅frontend -> react-router-dom, axios, tanStack, dotenv, tailwind
+---
 
+## Como usar
+No backend: ``npm run dev``
+No frontend: ``npm run dev``
 
-❗MELHORIAS
-- Botão para retirar produtos do estoque;
-- Botão para retirar fornada;
-- Validar inputs;
+---
 
-**⚙️Configuração**
-- "git clone" no repositório
-- "npm install" para instalar dependencias
-- Criar banco com schema.sql
-- criar arquivo .env no backend e frontend (use .env.example como modelo)
-- "npm run dev" para ligar backend e frontend
+## Tecnologias
+**Banco** 
+- mariadb
+
+**Backend**
+- express
+- cors 
+- dotenv 
+- zod
+- CRON
+- mysql2
+
+**Frontend**
+- react-router-dom
+- axios 
+- tanStack 
+- dotenv 
+- tailwind
+
+---
+
+## Autores
+**Davi A. Lopes**
+*Utilização de IA como ferramenta de auxílio*
