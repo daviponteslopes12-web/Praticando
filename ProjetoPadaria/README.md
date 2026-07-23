@@ -2,7 +2,7 @@
 
 ## Descrição
 Projeto simples e imperfeito que simula fornadas e controle de estoque, 
-criado para praticar e desenvolver conhecimento em **desenvolvimento web**.
+criado para praticar e desenvolver conhecimento em **Desenvolvimento Web**.
 
 ---
 
@@ -42,5 +42,5 @@ No frontend: ``npm run dev``
 ---
 
 ## Autores
-**Davi A. Lopes**
+**Davi A. Lopes**  
 *Utilização de IA como ferramenta de auxílio*
