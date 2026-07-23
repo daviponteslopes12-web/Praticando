@@ -7,22 +7,21 @@ criado para praticar e desenvolver conhecimento em **desenvolvimento web**.
 ---
 
 ## Instalação
-1- git clone https://github.com/davi41933-svg/ProjetoCafeteria.git
-2- Entrar nas pastas backend e frontend e rodar: 
-``npm install``
-4- Criar o banco e executar schema.sql
+1- git clone https://github.com/davi41933-svg/ProjetoCafeteria.git  
+2- Entrar nas pastas backend e frontend e rodar: ``npm install``  
+4- Criar o banco e executar schema.sql  
 5- Copiar .env.example para .env em backend e frontend e ajustar variáveis
 
 ---
 
 ## Como usar
-No backend: ``npm run dev``
+No backend: ``npm run dev``  
 No frontend: ``npm run dev``
 
 ---
 
 ## Tecnologias
-**Banco** 
+**Banco**
 - mariadb
 
 **Backend**
