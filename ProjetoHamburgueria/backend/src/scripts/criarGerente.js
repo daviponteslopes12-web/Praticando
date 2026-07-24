@@ -3,9 +3,9 @@ import bcrypt from 'bcrypt';
 import pool from '../config/database.js';
 
 async function criarGerente() {
-    const nome = process.argv[3];
-    const email = process.argv[4];
-    const senha = process.argv[5];
+    const nome = process.argv[2];
+    const email = process.argv[3];
+    const senha = process.argv[4];
 
     if (!nome || !email || !senha) {
         console.error('Uso: npm run criar-gerente "NOME" "EMAIL" "SENHA" ');
