@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { gerenteController } from '../controllers/gerenteController.js';
+import gerenteController from '../controllers/gerenteController.js';
 import { loginSchema } from '../schemas/gerenteSchemas.js';
 import validarSchema from '../middlewares/validateSchema.js';
 

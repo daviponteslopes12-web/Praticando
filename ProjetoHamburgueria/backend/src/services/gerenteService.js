@@ -1,9 +1,9 @@
-import { gerenteRepository } from '../repositories/gerenteRepository.js';
-import { criarErro } from '../utils/criarErro.js';
+import gerenteRepository from '../repositories/gerenteRepository.js';
+import criarErro from '../utils/criarErro.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
-export const gerenteService = {
+const gerenteService = {
 
     async login (email, senha) {
         const gerente = await gerenteRepository.buscarPorEmail(email);
@@ -34,3 +34,5 @@ export const gerenteService = {
         };
     },
 };
+
+export default gerenteService;

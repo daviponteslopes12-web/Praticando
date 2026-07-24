@@ -1,6 +1,6 @@
 import db from '../config/database.js';
 
-export const gerenteRepository = {
+const gerenteRepository = {
 
     async buscarPorEmail(email) {
         const [resultado] = await db.query('SELECT * FROM gerentes WHERE email = ?', [email]);
@@ -9,3 +9,5 @@ export const gerenteRepository = {
     }
 
 }
+
+export default gerenteRepository;
