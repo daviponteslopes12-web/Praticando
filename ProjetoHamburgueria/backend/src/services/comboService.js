@@ -24,12 +24,12 @@ const comboService = {
     },
 
     async listarCombos() {
-        const combos = await comboRepository.listarComboAtivo();
+        const combos = await comboRepository.listarCombos();
         return combos;
     },
 
-    async listarComboAtivo() {
-        const combos = await comboRepository.listarComboAtivo();
+    async listarCombosAtivos() {
+        const combos = await comboRepository.listarCombosAtivos();
         return combos;
     },
 

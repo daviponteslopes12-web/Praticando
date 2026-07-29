@@ -27,7 +27,7 @@ const comboRepository = {
         return comboId;
     },
 
-    async listarCombo() {
+    async listarCombos() {
         const [combos] = await db.query(`
             SELECT * FROM combos`);
 
@@ -38,7 +38,7 @@ const comboRepository = {
         return combos;
     },
 
-    async listarComboAtivo() {
+    async listarCombosAtivos() {
         const [combos] = await db.query(`
             SELECT *
             FROM combos 
