@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import comboController from '../controllers/comboController.js';
 import autenticacaoMiddleware from '../middlewares/autenticacaoMiddleware.js';
-import validarSchema from '../middlewares/schemaMiddleware.js';
+import validarSchema from '../middlewares/validateSchema.js';
 import { cadastrarComboSchema, editarComboSchema } from '../schemas/comboSchema.js';
 
 const router = Router();
