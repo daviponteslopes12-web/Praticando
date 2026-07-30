@@ -7,7 +7,7 @@ const comboApi = {
         return resposta.data;
     },
 
-    async listar() {
+    async listarTodos() {
         const resposta = await api.get('/combo/listar');
         return resposta.data;
     },
